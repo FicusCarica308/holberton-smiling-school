@@ -9,4 +9,15 @@ header {
     background-image: url('./images/pic_1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center 0rem;
+}
+
+
+.navbar-toggler {
+    color: white;
+}
+
+.navbar-toggler:active {
+    border: solid;
+    border-color: orange;
 }
