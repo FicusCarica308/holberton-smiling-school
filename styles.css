@@ -1,6 +1,24 @@
+:root {
+    --accent-color: #C271FF;
+}
+
 * {
     margin: 0;
     padding: 0;
+}
+
+.btn-primary {
+    background-color: var(--accent-color) !important;
+    border-radius: 22px;
+}
+
+.btn-primary:hover {
+    opacity: 0.9;
+}
+
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 header {
@@ -9,9 +27,12 @@ header {
     background-image: url('./images/pic_1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center 0rem;
+    background-position: center;
 }
 
+.accent-colors {
+    color: var(--accent-color);
+}
 
 .navbar-toggler {
     color: white;
@@ -20,4 +41,10 @@ header {
 .navbar-toggler:active {
     border: solid;
     border-color: orange;
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 5rem !important;
+    }
 }
