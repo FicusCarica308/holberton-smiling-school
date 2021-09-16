@@ -9,7 +9,6 @@
 
 .btn-primary {
     background-color: var(--accent-color) !important;
-    border-radius: 22px;
 }
 
 .btn-primary:hover {
@@ -22,8 +21,8 @@ body {
 }
 
 header {
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     background-image: url('./images/pic_1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,6 +44,8 @@ header {
 
 @media (max-width: 576px) {
     h1 {
-        font-size: 5rem !important;
+        font-size: 6rem !important;
     }
+
+    /* add media query for header background height and width changes */
 }

@@ -5,6 +5,10 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
         <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet"> 
+
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Coiny&display=swap" rel="stylesheet">
         <!-- Bootstrap Javascript & stylesheet-->
@@ -21,7 +25,7 @@
     </head>
     <body>
         <header>
-            <nav class="w-100 navbar navbar-expand-sm d-flex flex-column flex-sm-row">
+            <nav class="container navbar navbar-expand-sm d-flex flex-column flex-sm-row">
                 <div class="navbar-brand container-fluid pl-md-5">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynav">
                         <span class="holberton_school-icon-menu"></span>
@@ -35,7 +39,7 @@
                     <div class="collapse navbar-collapse" id="mynav">
                         <ul class="navbar-nav d-flex flex-column flex-sm-row pr-md-5">
                             <li class="p-sm-3 mx-auto nav-item">
-                                <a class="fw-bold text-white font-weight-bold nav-link" href="#">COURSES</a>
+                                <a class="text-light font-weight-bold nav-link" href="#">COURSES</a>
                             </li>
                             <li class="p-sm-3 mx-auto nav-item">
                                 <a class="text-light font-weight-bold nav-link" href="#">PRICING</a>
@@ -48,46 +52,50 @@
                 </div>
             </nav>
             <div class="px-4 py-5 my-5 text-center">
-                <h1 class="display-1 fw-bolder text-white">Get schooled</h1>
+                <h1 class="display-1  font-weight-bold text-white">Get schooled</h1>
                 <div class="col-lg-6 mx-auto">
                     <div class="d-flex flex-row justify-content-center">
-                        <h5 class="p-3 fw-bolder text-light">SMILES</h5>
-                        <h5 class="p-3 fw-bolder text-light">GRIN</h5>
-                        <h5 class="p-3 fw-bolder text-light">LAUGH</h5>
+                        <h5 class="p-3 font-weight-bold text-light">SMILES</h5>
+                        <h5 class="p-3 font-weight-bold text-light">GRIN</h5>
+                        <h5 class="p-3 font-weight-bold text-light">LAUGH</h5>
                     </div>
                   <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                    <button type="button" class="btn btn-primary fw-bolder btn-md px-4 py-2 gap-3 border-0 shadow-sm">REGISTER FOR FREE</button>
+                    <button type="button" class="btn btn-primary fw-bolder btn-md px-4 py-2 gap-3 border-0 rounded-pill shadow-sm">REGISTER FOR FREE</button>
                   </div>
                 </div>
               </div>
             <div class="text-center pb-5">
-                <h2 class="fw-bold text-light"><span class="fw-bold accent-colors">Learn</span> from the pros</h2>
+                <h2 class=" text-light"><span class="font-weight-bold accent-colors">Learn</span> from the pros</h2>
             </div>
             <!-- PROFILE BEGINNINGS (dont forget to fixe background before continueing)-->
-            <div class="pt-5 d-flex align-items-center">
-                <div>
-                    <img src="images/profile_1.jpg" width="120" height="120">
-                    <h6></h6>
-                    <p></p>
-                    <p></p>
+            <div class="container text-center d-flex p-0">
+                <div class="container-fluid d-flex flex-row flex-wrap flex-md-nowrap">
+                    <div class="container">
+                        <img class="rounded-circle" src="images/profile_1.jpg" width="120" height="120">
+                        <h6 class="text-light font-weight-bold">Phillip Massey</h6>
+                        <p class="text-light font-weight-light font-italic  mb-0 text-nowrap">« Smile of the year »</p>
+                        <p class="text-light font-weight-light font-italic text-nowrap">2018 - 2019</p>
+                    </div>
+                    <div class="container">
+                        <img class="rounded-circle" src="images/profile_2.jpg" width="120" height="120">
+                        <h6 class="text-light  font-weight-bold">Nannie Lawrence</h6>
+                        <p class="text-light font-weight-light font-italic  mb-0 text-nowrap">Best « little smile »</p>
+                        <p class="text-light font-weight-light font-italic text-nowrap">2017</p>
+                    </div>
                 </div>
-                <div>
-                    <img src="images/profile_2.jpg" width="120" height="120">
-                    <h6></h6>
-                    <p></p>
-                    <p></p>
-                </div>
-                <div>
-                    <img src="images/profile_3.jpg" width="120" height="120">
-                    <h6></h6>
-                    <p></p>
-                    <p></p>
-                </div>
-                <div>
-                    <img src="images/profile_4.jpg" width="120" height="120">
-                    <h6></h6>
-                    <p></p>
-                    <p></p>
+                <div class="container d-flex flex-row flex-wrap flex-md-nowrap">
+                    <div class="container">
+                        <img class="rounded-circle" src="images/profile_3.jpg" width="120" height="120">
+                        <h6 class="text-light  font-weight-bold">Bruce Walters</h6>
+                        <p class="text-light font-weight-light font-italic  mb-0 text-nowrap">Best « Friend Smile »</p>
+                        <p class="text-light font-weight-light font-italic text-nowrap">live performance 2019</p>
+                    </div>
+                    <div class="container">
+                        <img class="rounded-circle" src="images/profile_4.jpg" width="120" height="120">
+                        <h6 class="text-light font-weight-bold">Henry Hughes</h6>
+                        <p class="text-light font-weight-light font-italic mb-0 text-nowrap">« 24h smiles » winner 2016</p>
+                        <p class="text-light font-weight-light font-italic text-nowrap">2018 - 2019</p>
+                    </div>
                 </div>
             </div>
         </header>
