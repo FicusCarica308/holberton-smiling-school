@@ -15,6 +15,10 @@
     opacity: 0.9;
 }
 
+section {
+    background-color: var(--accent-color);
+}
+
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
