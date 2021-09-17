@@ -84,6 +84,14 @@ header {
     padding-left: 4.5rem !important;
 }
 
+#membership-section {
+    background: #071629;
+}
+
+.membership-item {
+    font-size: 14px;
+}
+
 @media (max-width: 576px) {
     #hero-title {
         font-size: 6rem !important;
