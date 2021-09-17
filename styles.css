@@ -15,7 +15,7 @@
     opacity: 0.9;
 }
 
-section {
+#quotes-carousel {
     background-color: var(--accent-color);
 }
 
@@ -46,9 +46,53 @@ header {
     border-color: orange;
 }
 
+.play-image {
+    position: absolute;
+    width: 40%;
+    margin-top: 3%;
+    margin-left: 20%;
+}
+
+.card-header-custom {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 50%;
+}
+
+#card-header-1 {
+    background-image: url(./images/thumbnail_4.jpg) !important;
+}
+
+
+#card-header-2 {
+    background-image: url(./images/thumbnail_3.jpg) !important;
+}
+
+
+#card-header-3 {
+    background-image: url(./images/thumbnail_1.jpg) !important;
+}
+
+
+#card-header-4 {
+    background-image: url(./images/thumbnail_2.jpg) !important;
+}
+
+#card-carousel-container {
+    padding-right: 4.5rem !important;
+    padding-left: 4.5rem !important;
+}
+
 @media (max-width: 576px) {
-    h1 {
+    #hero-title {
         font-size: 6rem !important;
+    }
+
+    .quote-carousel-controls {
+        padding-right: 6rem;
+        padding-left: 6rem;
+        padding-bottom: 12rem;
     }
 
     /* add media query for header background height and width changes */
