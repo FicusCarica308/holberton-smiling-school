@@ -11,14 +11,42 @@
     background-color: var(--accent-color) !important;
 }
 
+nav #mynav ul li a:hover {
+    color: var(--accent-color) !important;
+}
+
+a:hover, a:active {
+    color: var(--accent-color) !important;
+}
+
+/* Dropdowns */
+
+.btn-secondary:hover {
+    opacity: 0.9;
+}
+
+.btn-secondary, .btn-secondary:hover {
+    width: 20rem;
+    height: 55px;
+    background-color: #d8a4ff !important;
+    border-bottom: 5px;
+    border-bottom: #d8a4ff !important;
+}
+
+.dropdown-custom {
+    border-top: 5px;
+    border-top: #d8a4ff;
+    width: 20rem;
+}
+
+/*=============*/
 .btn-primary:hover {
     opacity: 0.9;
 }
 
-#quotes-carousel {
+#quotes-carousel, #search-section {
     background-color: var(--accent-color);
 }
-
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
@@ -109,6 +137,24 @@ header {
 
 #courses-h1 {
     font-family: 'Coiny', cursive;
+}
+
+@media (max-width: 768px) {
+    .btn-secondary, .btn-secondary:hover {
+        width: 85vw;
+        padding-right: 3rem;
+        height: 55px;
+    }
+
+    .carot-spacing {
+        margin: 30% !important;
+    }
+    
+    .dropdown-custom {
+        border-top: 5px;
+        border-top: #d8a4ff;
+        width: 40rem;
+    }
 }
 
 @media (max-width: 576px) {
