@@ -33,8 +33,12 @@ header {
     background-position: center;
 }
 
+#pricing-header {
+    background-image: url('./images/pic_2.jpg');
+}
+
 .accent-colors {
-    color: var(--accent-color);
+    color: var(--accent-color) !important;
 }
 
 .navbar-toggler {
@@ -112,3 +116,4 @@ header {
 
     /* add media query for header background height and width changes */
 }
+
