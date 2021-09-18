@@ -139,7 +139,18 @@ header {
     font-family: 'Coiny', cursive;
 }
 
-@media (max-width: 768px) {
+#input-custom {
+    background-color: #d8a4ff;
+}
+
+@media (max-width: 1071px)
+{
+    #input-custom {
+        width: 39rem;
+    }
+}
+
+@media (max-width: 767px) {
     .btn-secondary, .btn-secondary:hover {
         width: 85vw;
         padding-right: 3rem;
@@ -155,6 +166,10 @@ header {
         border-top: #d8a4ff;
         width: 40rem;
     }
+
+    #input-custom {
+        width: 78vw !important;
+    }
 }
 
 @media (max-width: 576px) {
@@ -168,6 +183,9 @@ header {
         padding-bottom: 12rem;
     }
 
+    #input-group-override {
+        margin:auto;
+        width: 86vw;
+    }
     /* add media query for header background height and width changes */
 }
-
