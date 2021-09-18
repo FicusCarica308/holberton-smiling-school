@@ -79,13 +79,20 @@ header {
     background-image: url(./images/thumbnail_2.jpg) !important;
 }
 
-#card-carousel-container {
-    padding-right: 4.5rem !important;
-    padding-left: 4.5rem !important;
+#card-header-1-latest {
+    background-image: url(./images/thumbnail_5.jpg) !important;
 }
 
 #membership-section {
     background: #071629;
+}
+
+#footer-section {
+    background: #071629;
+}
+
+#footer-icons {
+    font-size: 40px;
 }
 
 .membership-item {
