@@ -141,6 +141,20 @@ header {
 
 #input-custom {
     background-color: #d8a4ff;
+    height: 3.5rem;
+    margin-top: 1px;
+}
+
+#basic-addon1 {
+    background-color: #d8a4ff;
+    margin-top: 0.08rem;
+    font-size: 25px;
+}
+
+.form-control::placeholder {
+    font-weight: lighter;
+    color: white;
+    opacity: 1;
 }
 
 @media (max-width: 1071px)
@@ -164,7 +178,7 @@ header {
     .dropdown-custom {
         border-top: 5px;
         border-top: #d8a4ff;
-        width: 40rem;
+        width: 85vw;
     }
 
     #input-custom {
@@ -184,7 +198,7 @@ header {
     }
 
     #input-group-override {
-        margin:auto;
+        margin: auto;
         width: 86vw;
     }
     /* add media query for header background height and width changes */
