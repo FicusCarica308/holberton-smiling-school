@@ -37,6 +37,10 @@ header {
     background-image: url('./images/pic_2.jpg');
 }
 
+#courses-header {
+    background-image: url('./images/pic_3.jpg');
+}
+
 .accent-colors {
     color: var(--accent-color) !important;
 }
@@ -101,6 +105,10 @@ header {
 
 .membership-item {
     font-size: 14px;
+}
+
+#courses-h1 {
+    font-family: 'Coiny', cursive;
 }
 
 @media (max-width: 576px) {
