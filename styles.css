@@ -157,6 +157,11 @@ header {
     opacity: 1;
 }
 
+#video-count {
+    color: #0716294C;
+    padding-left: 14.5rem;
+}
+
 @media (max-width: 1071px)
 {
     #input-custom {
