@@ -9,6 +9,7 @@ This repository contains three different web pages designed using HTML and Boost
 * pricing.html iterations
 * homepage.html iterations
 * courses.html iterations  
+* styles.css - This is the css file that contains css for all three webpages that couldnt be covered by bootstrap
 
 ## Authors
 Manuel Enrique Figueroa - [Github](https://github.com/FicusCarica308)
